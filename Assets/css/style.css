@@ -1,0 +1,40 @@
+.cursiva {
+	text-align: right;
+	font-style: italic;
+}
+
+.mayuscula {
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
+.grande {
+	font-family: "Times New Roman", sans-serif;
+	font-size: 20pt;
+
+}
+.negrita {
+	font-weight: bold;
+	text-shadow: -4px 3px 5px green;
+}
+.buscadores {
+	background: #C9F59D;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+}
+.redes {
+	background: #9DF5F3;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+
+}
+.noticias {
+	background: #F59DCC;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+}
+.subititulo {
+	font-weight: bold;
+}
