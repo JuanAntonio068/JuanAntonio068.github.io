@@ -20,21 +20,49 @@
 	background: #C9F59D;
 	width: 400px;
 	height: 200px;
-	display: inline-block;
+	border-radius: 15px 15px 15px 15px;
+	flex: 1;
+	padding: 10px;
 }
 .redes {
 	background: #9DF5F3;
 	width: 400px;
 	height: 200px;
-	display: inline-block;
-
+	border-radius: 15px 15px 15px 15px;
+	flex: 1;
+	padding:10px;
 }
 .noticias {
 	background: #F59DCC;
 	width: 400px;
 	height: 200px;
-	display: inline-block;
+	border-radius: 15px 15px 15px 15px;	
+	flex: 1;
+	padding:10px;
 }
 .subititulo {
 	font-weight: bold;
+}
+.contenedor {
+	display: flex;
+	gap: 10px;
+	margin-top:20px;
+}
+.rojo {
+	background: red
+}
+.azul {
+	background: blue
+}
+.verde {
+	background: green
+}
+a {
+	display: inline-block;
+	margin: 2px 4px;
+	padding: 5px 10px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 3px;
 }
