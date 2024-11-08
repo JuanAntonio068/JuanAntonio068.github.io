@@ -1,0 +1,21 @@
+ div {
+ 	background-size: 50px 50px;
+	background-image: url(../images/trivia.jpg);
+	width: 200px;
+	height: 200px;
+ }
+ .fondo1 {
+ 	border: 2px solid red;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+ .fondo2 {
+	border: 2px solid blue;
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+ .fondo3 {
+	border: 2px solid green;
+	background-position: bottom right;
+	background-repeat: repeat-y;
+}
