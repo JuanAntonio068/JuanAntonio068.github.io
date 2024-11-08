@@ -23,6 +23,7 @@
 	border-radius: 15px 15px 15px 15px;
 	flex: 1;
 	padding: 10px;
+	display: flex;
 }
 .redes {
 	background: #9DF5F3;
@@ -31,6 +32,7 @@
 	border-radius: 15px 15px 15px 15px;
 	flex: 1;
 	padding:10px;
+	display: flex;
 }
 .noticias {
 	background: #F59DCC;
@@ -39,6 +41,7 @@
 	border-radius: 15px 15px 15px 15px;	
 	flex: 1;
 	padding:10px;
+	display: flex;
 }
 .subititulo {
 	font-weight: bold;
@@ -49,20 +52,40 @@
 	margin-top:20px;
 }
 .rojo {
-	background: red
+	background: red;
+	width: 110px;
+	height: 50px;
 }
 .azul {
-	background: blue
+	background: blue;
+	width: 110px;
+	height: 50px;
 }
 .verde {
-	background: green
+	background: green;
+	width: 110px;
+	height: 50px;
 }
-a {
+.buscadores a {
+	margin: 2px 4px;
+	padding: 5px 10px;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+}
+.redes a {
 	display: inline-block;
 	margin: 2px 4px;
 	padding: 5px 10px;
 	color: white;
-	text-decoration: none;
+	font-weight: bold;
+	border-radius: 3px;
+}
+.noticias a {
+	display: inline;
+	margin: 2px 4px;
+	padding: 5px 10px;
+	color: white;
 	font-weight: bold;
 	border-radius: 3px;
 }
